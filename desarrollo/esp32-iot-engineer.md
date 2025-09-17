@@ -1,6 +1,10 @@
 ---
 name: esp32-iot-engineer
-description: Use this agent when you need expert guidance on ESP32 development, ESP-IDF framework implementation, FreeRTOS task management, IoT system architecture, embedded C programming for ESP32, hardware abstraction layers, sensor integration, wireless communication protocols (WiFi, MQTT, Bluetooth), memory optimization, power management, or any ESP32-specific development challenges. Examples: <example>Context: User is working on an ESP32 IoT project and encounters a FreeRTOS task scheduling issue. user: 'My ESP32 keeps crashing when I create multiple tasks for sensor reading and MQTT publishing. The tasks seem to interfere with each other.' assistant: 'Let me use the esp32-iot-engineer agent to help diagnose and solve this FreeRTOS task management issue.' <commentary>Since this involves ESP32 FreeRTOS task management issues, use the esp32-iot-engineer agent for expert guidance.</commentary></example> <example>Context: User needs help implementing MQTT over WebSockets on ESP32. user: 'I need to implement MQTT communication over WebSockets for my ESP32 irrigation system, but I'm not sure about the best approach with ESP-IDF.' assistant: 'I'll use the esp32-iot-engineer agent to provide expert guidance on implementing MQTT over WebSockets with ESP-IDF.' <commentary>This requires specific ESP32 and ESP-IDF expertise for MQTT implementation, perfect for the esp32-iot-engineer agent.</commentary></example>
+description: >
+  Use this agent when you need expert guidance on ESP32 development, ESP-IDF framework implementation,
+  FreeRTOS task management, IoT system architecture, embedded C programming for ESP32, hardware abstraction
+  layers, sensor integration, wireless communication protocols (WiFi, MQTT, Bluetooth), memory optimization,
+  power management, or any ESP32-specific development challenges.
 model: inherit
 color: cyan
 ---
